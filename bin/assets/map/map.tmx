@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="40" height="40" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="32x32" tilewidth="32" tileheight="32">
+  <image source="32x32.png" width="128" height="32"/>
+ </tileset>
+ <tileset firstgid="5" name="32x32_2" tilewidth="32" tileheight="32">
+  <image source="32x32_2.png" width="64" height="384"/>
+ </tileset>
+ <tileset firstgid="29" name="32x64" tilewidth="32" tileheight="64">
+  <image source="32x64.png" width="128" height="64"/>
+ </tileset>
+ <tileset firstgid="33" name="64x64" tilewidth="64" tileheight="64">
+  <image source="64x64.png" width="384" height="128"/>
+ </tileset>
+ <layer name="background" width="40" height="40">
+  <data encoding="base64" compression="zlib">
+   eJztwwEJAAAMBKHj+4dej6Hgqqmqqqqqqj56eyQMgQ==
+  </data>
+ </layer>
+ <layer name="walls" width="40" height="40">
+  <data encoding="base64" compression="zlib">
+   eJztzrEKgDAMRdFu3QRBpIP//50uHRsxTdRg7oM7veXUUkoN3qFs6z09fPg0vt2hzD7v4cOHDx++OZ+lzD5Lf/YtQhF8ks3biA8fPnz4dL4ro5fN6nujSL51UOuNvi987Wb48GX0aZJ8kTsBhE1hSQ==
+  </data>
+ </layer>
+ <layer name="bigtiles" width="40" height="40">
+  <data encoding="base64" compression="zlib">
+   eJzt1jEKwCAQRFEvkiqQ+x/RIqlENBJXd7L/gdjq7ICmBCCCa/cBBLQyip7fWeyjyO92PGu2N/kqz8A6v1lGzrdyHq38vPXC43xV+ufV1/cD8CTSX/Fv9wFq6HmfZUbkDxV0VV8Gw3QEkg==
+  </data>
+ </layer>
+</map>

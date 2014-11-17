@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:50c13a0c61671ba5fd678da7c6c7e95d:1/1$ -->
+<TextureAtlas imagePath="maptiles.png">
+    <SubTexture name="32x32" x="2" y="2" width="128" height="32"/>
+    <SubTexture name="32x32_2" x="388" y="68" width="64" height="384"/>
+    <SubTexture name="32x64" x="132" y="2" width="128" height="64"/>
+    <SubTexture name="64x64" x="2" y="68" width="384" height="128"/>
+</TextureAtlas>
