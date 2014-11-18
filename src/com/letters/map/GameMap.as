@@ -37,6 +37,7 @@ package com.letters.map
 		public function drawMapLayer(quadBatchLayer:QuadBatch, layerNum:uint = 0, fromCol:uint = 0, toCol:uint = 10, fromRow:uint = 0, toRow:uint = 10):void
 		{
 			var txt:Texture;
+			var img:Image;
 				
 			for (var i:int = fromCol; i < toCol; i++)
 			{
@@ -46,7 +47,16 @@ package com.letters.map
 					
 					if (txt != null)
 					{
-						var img:Image = new Image(txt);
+						if (img == null)
+						{
+							img = new Image(txt);
+						}
+						else
+						{
+							img.texture = txt;
+							img.readjustSize(); //as the tiles are of different size, the size of the texture might change
+						}
+						
 						img.x = (i - fromCol) * _tileMap.tileWidth;
 						img.y = (j - fromRow) * _tileMap.tileHeight;
 						
